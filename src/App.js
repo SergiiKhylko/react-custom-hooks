@@ -4,7 +4,10 @@ import PositiveCounter from "./components/PositiveCounter";
 
 function App() {
   return (
-   <div>Hello World</div>
+    <React.Fragment>
+      <PositiveCounter />
+      <NegativeCounter />
+    </React.Fragment>
   );
 }
 
